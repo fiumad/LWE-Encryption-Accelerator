@@ -1,0 +1,1391 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[17:01:58.235442] Configured Lic search path (23.02-s006): 5279@licsrvr34.win.rpi.edu:27015@licsrvr2.arc.rpi.edu
+
+Version: 23.13-s073_1, built Fri Nov 08 07:01:49 PST 2024
+Options: -files modulus.g 
+Date:    Sun Apr 13 17:01:58 2025
+Host:    rs-02.ecse.rpi.edu (x86_64 w/Linux 4.18.0-553.40.1.el8_10.x86_64) (14cores*56cpus*2physical cpus*Intel(R) Xeon(R) Gold 6132 CPU @ 2.60GHz 19712KB) (527312528KB)
+PID:     1748415
+OS:      Red Hat Enterprise Linux 8.10 (Ootpa)
+
+Checking out license: Genus_Synthesis
+[17:01:58.015643] Periodic Lic check successful
+[17:01:58.539955] Feature usage summary:
+[17:01:58.539955] Genus_Synthesis
+
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (1 second elapsed).
+
+Loading tool scripts...
+Finished loading tool scripts (17 seconds elapsed).
+
+#@ Processing -files option
+@genus:root: 1> source modulus.g
+#@ Begin verbose source ./modulus.g
+@file(modulus.g) 2: set_db init_lib_search_path /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/
+  Setting attribute of root '/': 'init_lib_search_path' = /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/
+@file(modulus.g) 3: set_db library /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3649719)
+        : Check and update the library to have the attribute defined before it is used by any of the groups further down in the library. When a group is defined, all attributes which affect that particular group should be known at that point else Genus will ignore their definition.
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3649761)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3649803)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3649845)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3649887)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3649929)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3724890)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3724932)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3724974)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3725016)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3725058)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3725100)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3800061)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3800103)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3800145)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3800187)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3800229)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3800271)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3875232)
+Warning : Found empty library construct. [LBR-512]
+        : Group 'receiver_capacitance' is ignored. It is either empty or has attributes which are not relevant for current tool. (File /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib, Line 3875274)
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-512'.
+
+  Message Summary for Library 45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib:
+  ****************************************************************************
+  Found empty library construct. [LBR-512]: 30
+  An unsupported construct was detected in this library. [LBR-40]: 7
+  ****************************************************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.000000, 85.000000) in library '45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA_X1_9T_SG40RVT' must have an output pin.
+        : Add the missing output pin(s), then reload the library. Else the library cell will be marked as timing model i.e. unusable. Timing_model means that the cell does not have any defined function. If there is no output pin, Genus will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the power_ground pins. Genus will depend upon the output function defined in the pin group (output pin) of the cell, to use it for mapping. The pg_pin will not have any function defined.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'ANTENNA_X1_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DCAP_T16_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DCAP_T16_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DCAP_T32_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DCAP_T32_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DCAP_T8_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'DCAP_T8_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T16_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T16_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T32_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T32_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T4_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T4_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T8_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'FILLCAP_T8_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'CNRLEFTBOTTOM_T4_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'CNRLEFTBOTTOM_T4_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'CNRLEFTTOP_T4_9T_SG40RVT' must have an output pin.
+Warning : Library cell has no output pins defined. [LBR-9]
+        : Library cell 'CNRLEFTTOP_T4_9T_SG40RVT' must have an output pin.
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'LBR-9'.
+  Setting attribute of root '/': 'library' = /cad/cds/GF_PDK/45SPCLO/45spclo_SC_BASE_9T_SG40RVT_2023q4v1/liberty/ccs_lib/45spclo_SC_BASE_9T_SG40RVT_TT_1P00V_85C_ccs.lib
+@file(modulus.g) 4: read_hdl -sv ../mod.sv
+@file(modulus.g) 5: elaborate
+  Library has 320 usable logic and 127 usable sequential lib-cells.
+Info    : Elaborating Design. [ELAB-1]
+        : Elaborating top-level block 'novel_mod_operator' from file '../mod.sv'.
+Warning : Using default parameter value for module elaboration. [CDFG-818]
+        : Elaborating block 'novel_mod_operator' with default parameters value.
+Warning : Unreachable statements for case item. [CDFG-472]
+        : Case item 'default' in module 'novel_mod_operator' in file '../mod.sv' on line 62.
+Info    : Done Elaborating Design. [ELAB-3]
+        : Done elaborating 'novel_mod_operator'.
+Checking for source RTL...
+Check completed for source RTL.
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: post_elab
+-------------------------------------------------------
+| Trick             | Accepts | Rejects | Runtime (s) | 
+-------------------------------------------------------
+| ume_constant_bmux |       0 |       0 |        0.00 | 
+| ume_merge         |       0 |       0 |        0.00 | 
+| ume_ssm           |       0 |       0 |        0.00 | 
+| ume_cse           |       1 |       0 |        0.00 | 
+| ume_shrink        |       0 |       0 |        0.00 | 
+| ume_sweep         |       0 |       0 |        0.00 | 
+| ume_constant_bmux |       0 |       0 |        0.00 | 
+| ume_merge         |       0 |       0 |        0.00 | 
+| ume_ssm           |       0 |       0 |        0.00 | 
+| ume_cse           |       0 |       0 |        0.00 | 
+| ume_shrink        |       0 |       0 |        0.00 | 
+| ume_sweep         |       0 |       0 |        0.00 | 
+-------------------------------------------------------
+Starting optimize datapath shifters [v1.0] (stage: post_elab, startdef: novel_mod_operator, recur: true)
+Completed optimize datapath shifters (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip mux common data inputs [v1.0] (stage: post_elab, startdef: novel_mod_operator, recur: true)
+Completed clip mux common data inputs (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip the non-user hierarchies [v2.0] (stage: post_elab, startdef: novel_mod_operator, recur: true)
+Completed clip the non-user hierarchies (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting basic netlist cleanup [v1.0] (stage: post_elab, startdef: novel_mod_operator, recur: true)
+Completed basic netlist cleanup (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: post_elab
+--------------------------------------------------------------------
+| Transform                      | Accepts | Rejects | Runtime (s) | 
+--------------------------------------------------------------------
+| hlo_optimize_datapath_shifters |       0 |       0 |        0.00 | 
+| hlo_clip_mux_input             |       0 |       0 |        0.00 | 
+| hlo_clip                       |       0 |       0 |        0.00 | 
+| hlo_cleanup                    |       0 |       0 |        0.00 | 
+--------------------------------------------------------------------
+UM:   flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   elaborate
+@file(modulus.g) 6: read_sdc ./timing.sdc
+Statistics for commands executed by read_sdc:
+ "create_clock"             - successful      1 , failed      0 (runtime  0.01)
+ "get_ports"                - successful      1 , failed      0 (runtime  0.01)
+read_sdc completed in 00:00:00 (hh:mm:ss)
+@file(modulus.g) 7: syn_generic
+stamp 'PBS_Generic-Start' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+
+Stage: pre_early_cg
+-----------------------------------------------
+| Transform | Accepts | Rejects | Runtime (s) | 
+-----------------------------------------------
+-----------------------------------------------
+Mapping ChipWare ICG instances in novel_mod_operator
+Found 0 unmapped ChipWare ICG instances
+Mapped 0 of 0 ChipWare ICG instances
+##Generic Timing Info: typical gate delay   16.2 ps   std_slew:    3.0 ps   std_load:  1.9 fF  for library domain _default_
+Starting mux data reorder optimization [v1.0] (stage: pre_to_gen_setup, startdef: novel_mod_operator, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: pre_to_gen_setup
+-----------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (s) | 
+-----------------------------------------------------
+| hlo_mux_reorder |       0 |       0 |        0.00 | 
+-----------------------------------------------------
+Running DP early constant propagation (netlist novel_mod_operator)...
+Running DP early redundancy removal
+Completed DP early redundancy removal on novel_mod_operator (runtime = 0.0s)
+Multi-threaded constant propagation [4|0] ...
+...done running DP early constant propagation (0 seconds CPU time, 0 seconds wall time, netlist novel_mod_operator).
+Info    : Deleting instances not driving any primary outputs. [GLO-34]
+        : Deleting 1 hierarchical instance.
+        : Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or above. If the message is truncated set the message attribute 'truncate' to false to see the complete list. To prevent this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.
+Info    : Synthesizing. [SYNTH-1]
+        : Synthesizing 'novel_mod_operator' to generic gates using 'medium' effort.
+Running Synthesis Turbo Flow Version 3.
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed generic optimization to kick in.
+Starting mux data reorder optimization [v1.0] (stage: pre_to_gen_setup, startdef: novel_mod_operator, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: pre_to_gen_setup
+-----------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (s) | 
+-----------------------------------------------------
+| hlo_mux_reorder |       0 |       0 |        0.00 | 
+-----------------------------------------------------
+Starting mux data reorder optimization [v1.0] (stage: post_to_gen_setup, startdef: novel_mod_operator, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: post_to_gen_setup
+-----------------------------------------------------
+| Transform       | Accepts | Rejects | Runtime (s) | 
+-----------------------------------------------------
+| hlo_mux_reorder |       0 |       0 |        0.00 | 
+-----------------------------------------------------
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: pre_hlo_rtlopt
+-----------------------------------------------
+| Trick     | Accepts | Rejects | Runtime (s) | 
+-----------------------------------------------
+| ume_ssm   |       0 |       0 |        0.00 | 
+| ume_sweep |       0 |       0 |        0.00 | 
+| ume_share |       0 |       0 |        0.00 | 
+-----------------------------------------------
+Begin SDR optimization CTX_region 
+  Setting attribute of root '/': 'hier_sandbox_support_folded' = 1
+#Special hiers formed inside novel_mod_operator = 0
+No special hier is found 
+  Setting attribute of root '/': 'hier_sandbox_support_folded' = 0
+End SDR optimization CTX_region 
+Begin SDR optimization UME_region 
+  Setting attribute of root '/': 'hier_sandbox_support_folded' = 1
+#Special hiers formed inside novel_mod_operator = 0
+No special hier is found 
+  Setting attribute of root '/': 'hier_sandbox_support_folded' = 0
+End SDR optimization UME_region 
+Starting timing based select reordering [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed timing based select reordering (accepts: 0, rejects: 0, runtime: 0.072s)
+Starting recase case-box optimization [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed recase case-box optimization (accepts: 0, rejects: 0, runtime: 0.003s)
+Starting infer macro optimization [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed infer macro optimization (accepts: 0, rejects: 6, runtime: 0.002s)
+Starting decode mux sandwich optimization [v2.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed decode mux sandwich optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting decode mux optimization [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed decode mux optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting chop wide muxes [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed chop wide muxes (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common data mux cascade opt [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed common data mux cascade opt (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux input consolidation [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed mux input consolidation (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting constant-data mux optimization [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed constant-data mux optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting chain-to-tree inequality transform [v2.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed chain-to-tree inequality transform (accepts: 0, rejects: 0, runtime: 0.002s)
+Starting reconvergence optimization [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed reconvergence optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting logic restructure optimization [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed logic restructure optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting identity transform [v3.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed identity transform (accepts: 0, rejects: 2, runtime: 0.000s)
+Starting reduce operator chain [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed reduce operator chain (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting common data mux cascade opt [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed common data mux cascade opt (accepts: 0, rejects: 0, runtime: 0.001s)
+Starting mux input consolidation [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed mux input consolidation (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting optimize datapath elements [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed optimize datapath elements (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting datapath recasting [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed datapath recasting (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting word-level redundancy removal [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed word-level redundancy removal (accepts: 0, rejects: 0, runtime: 0.027s)
+Starting clip mux common data inputs [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed clip mux common data inputs (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting clip the non-user hierarchies [v2.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed clip the non-user hierarchies (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting basic netlist cleanup [v1.0] (stage: pre_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed basic netlist cleanup (accepts: 0, rejects: 0, runtime: 0.000s)
+
+Stage: pre_rtlopt
+-----------------------------------------------------------------
+| Transform                   | Accepts | Rejects | Runtime (s) | 
+-----------------------------------------------------------------
+| hlo_timing_reorder          |       0 |       0 |        0.07 | 
+| hlo_recase_casebox          |       0 |       0 |        0.00 | 
+| hlo_infer_macro             |       0 |       6 |        0.00 | 
+| hlo_decode_mux_sandwich     |       0 |       0 |        0.00 | 
+| hlo_mux_decode              |       0 |       0 |        0.00 | 
+| hlo_chop_mux                |       0 |       0 |        0.00 | 
+| hlo_mux_cascade_opt         |       0 |       0 |        0.00 | 
+| hlo_mux_consolidation       |       0 |       0 |        0.00 | 
+| hlo_constant_mux_opt        |       0 |       0 |        0.00 | 
+| hlo_inequality_transform    |       0 |       0 |        0.00 | 
+| hlo_reconv_opt              |       0 |       0 |        0.00 | 
+| hlo_restructure             |       0 |       0 |        0.00 | 
+| hlo_identity_transform      |       0 |       2 |        0.00 | 
+| hlo_reduce_operator_chain   |       0 |       0 |        0.00 | 
+| hlo_mux_cascade_opt         |       0 |       0 |        0.00 | 
+| hlo_mux_consolidation       |       0 |       0 |        0.00 | 
+| hlo_optimize_datapath       |       0 |       0 |        0.00 | 
+| hlo_datapath_recast         |       0 |       0 |        0.00 | 
+| hlo_redundancy_removal_word |       0 |       0 |        0.03 | 
+| hlo_clip_mux_input          |       0 |       0 |        0.00 | 
+| hlo_clip                    |       0 |       0 |        0.00 | 
+| hlo_cleanup                 |       0 |       0 |        0.00 | 
+-----------------------------------------------------------------
+Running Unified Mux Engine Tricks...
+Completed Unified Mux Engine Tricks
+
+Stage: post_hlo_rtlopt
+----------------------------------------------------------
+| Trick                | Accepts | Rejects | Runtime (s) | 
+----------------------------------------------------------
+| ume_sweep_aggressive |       0 |       0 |        0.00 | 
+| ume_runtime          |       0 |       0 |        0.00 | 
+----------------------------------------------------------
+Number of big hc bmuxes before = 0
+Info    : Pre-processed datapath logic. [DPOPT-6]
+        : No pre-processing optimizations applied to datapath logic in 'novel_mod_operator'.
+Info    : Optimizing datapath logic. [DPOPT-1]
+        : Optimizing datapath logic in 'novel_mod_operator'.
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_0_1'
+CSAGen Prep Share:0 Re-Write:0 Speculation: 0
+CDN_DP_region_0_1 level = 0 loads = 0 drivers = 0
+CDN_DP_region_0_1_c0 in novel_mod_operator: area: 570169365 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = slow         worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154314  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ skipped
+CDN_DP_region_0_1_c1 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = fast         worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c2 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_slow    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c3 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c4 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c5 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c6 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_1_c7 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+Best config: CDN_DP_region_0_1_c7 in novel_mod_operator: area: 462971310 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2744  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  154173  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+  Smallest config area : 462971310.  Fastest config wns;  2744
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Summary table of configs (Best config is CDN_DP_region_0_1_c7)
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>                     0                  1                  2                  3                  4                  5                  6                  7            
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>           Area        570169365          462971310          462971310          462971310          462971310          462971310          462971310          462971310  
+##>            WNS          -274.40            -274.40            -274.40            -274.40            -274.40            -274.40            -274.40            -274.40  
+##>            TNS           154314             154173             154173             154173             154173             154173             154173             154173  
+##>    Num Rewrite                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Num Factor                0                  0                  0                  0                  0                  0                  0                  0  
+##>      Num Share                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num CmultCse                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num Downsize                0                  0                  0                  0                  0                  0                  0                  0  
+##>  Num Speculate                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Runtime(s)                0                  0                  0                  0                  0                  0                  0                  0  
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>
+##>
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Optimization Step DEBUG Table for config CDN_DP_region_0_1_c7
+##>
+##>                          Step                        Area   (  % Chg)         WNS (Change)          TNS (Change)                Power   (  % Chg)        Runtime (s)        Comment                   
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>EquationExtraction              START              570169365 (       )     -274.40 (        )     154314 (        )                    0 (       )              
+##> rewrite                        START             1452611325 (+154.77)     -276.40 (   -2.00)     156210 (    1896)                    0 (  +0.00)              (a,ar) Expr0_from --> Expr0_to
+##>                                  END             3133601115 (+115.72)     -276.40 (   +0.00)     156236 (      26)                    0 (  +0.00)           0  
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>createMaxCarrySave              START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##> datapath_rewrite_one_def       START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##> csa_opto                       START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>canonicalize_by_names           START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>datapath_rewrite_post_csa_one_  START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>datapath_csa_factoring_one_gde  START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>dpopt_share_one_def             START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>datapath_rewrite_post_share     START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>dp_combine_const_mult_with_com  START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>dp_operator_level_decompositio  START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>selective_flatten_dp_config     START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>createMaxCarrySave              START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##> datapath_rewrite_one_def       START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>  fast_cse_elim                 START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>  fast_cse_elim                 START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##> csa_opto                       START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>                                  END              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)           0  
+##>context_based_simplify          START              570169365 (  +0.00)     -274.40 (   +0.00)     154314 (       0)                    0 (  +0.00)              
+##>                                  END              462971310 ( -18.80)     -274.40 (   +0.00)     154173 (    -141)                    0 (  +0.00)           0  
+##>group_csa_final_adder_dp        START              462971310 (  +0.00)     -274.40 (   +0.00)     154173 (       0)                    0 (  +0.00)              
+##>                                  END              462971310 (  +0.00)     -274.40 (   +0.00)     154173 (       0)                    0 (  +0.00)           0  
+##>dpopt_flatten_critical_muxes_i  START              462971310 (  +0.00)     -274.40 (   +0.00)     154173 (       0)                    0 (  +0.00)              
+##>                                  END              462971310 (  +0.00)     -274.40 (   +0.00)     154173 (       0)                    0 (  +0.00)           0  
+##>create_score                    START              462971310 (  +0.00)     -274.40 (   +0.00)     154173 (       0)                    0 (  +0.00)              
+##>                                  END              462971310 (  +0.00)     -274.40 (   +0.00)     154173 (       0)                    0 (  +0.00)           0  
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Committed config: CDN_DP_region_0_1_c7
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 7 for module 'CDN_DP_region_0_1_c7'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_0_2'
+CSAGen Prep Share:0 Re-Write:0 Speculation: 0
+CDN_DP_region_0_2 level = 0 loads = 0 drivers = 0
+CDN_DP_region_0_2_c0 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = slow         worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ skipped
+CDN_DP_region_0_2_c1 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = fast         worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_2_c2 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_slow    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_2_c3 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_2_c4 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_2_c5 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_2_c6 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_2_c7 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+Best config: CDN_DP_region_0_2_c7 in novel_mod_operator: area: 1553595 ,dp = 1 mux = 0  ctl_case = 0  decode = 0  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 1825  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  11916  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+  Smallest config area : 1553595.  Fastest config wns;  1825
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Summary table of configs (Best config is CDN_DP_region_0_2_c7)
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>                     0                  1                  2                  3                  4                  5                  6                  7            
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>           Area          1553595            1553595            1553595            1553595            1553595            1553595            1553595            1553595  
+##>            WNS          -182.50            -182.50            -182.50            -182.50            -182.50            -182.50            -182.50            -182.50  
+##>            TNS            11916              11916              11916              11916              11916              11916              11916              11916  
+##>    Num Rewrite                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Num Factor                0                  0                  0                  0                  0                  0                  0                  0  
+##>      Num Share                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num CmultCse                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num Downsize                0                  0                  0                  0                  0                  0                  0                  0  
+##>  Num Speculate                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Runtime(s)                0                  0                  0                  0                  0                  0                  0                  0  
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>
+##>
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Optimization Step DEBUG Table for config CDN_DP_region_0_2_c7
+##>
+##>                          Step                        Area   (  % Chg)         WNS (Change)          TNS (Change)                Power   (  % Chg)        Runtime (s)        Comment                   
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>EquationExtraction              START                1553595 (       )     -182.50 (        )      11916 (        )                    0 (       )              
+##> rewrite                        START                3107190 (+100.00)     -180.50 (   +2.00)      11840 (     -76)                    0 (  +0.00)              (a,ar) Expr1_from --> Expr1_to
+##>                                  END              158466690 (+5000.00)     -183.80 (   -3.30)      12031 (     191)                    0 (  +0.00)           0  
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>createMaxCarrySave              START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##> datapath_rewrite_one_def       START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##> csa_opto                       START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>canonicalize_by_names           START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>datapath_rewrite_post_csa_one_  START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>datapath_csa_factoring_one_gde  START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>dpopt_share_one_def             START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>datapath_rewrite_post_share     START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>dp_combine_const_mult_with_com  START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>dp_operator_level_decompositio  START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>selective_flatten_dp_config     START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>createMaxCarrySave              START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##> datapath_rewrite_one_def       START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>  fast_cse_elim                 START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>  fast_cse_elim                 START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##> csa_opto                       START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>context_based_simplify          START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>group_csa_final_adder_dp        START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>dpopt_flatten_critical_muxes_i  START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>create_score                    START                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)              
+##>                                  END                1553595 (  +0.00)     -182.50 (   +0.00)      11916 (       0)                    0 (  +0.00)           0  
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Committed config: CDN_DP_region_0_2_c7
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 7 for module 'CDN_DP_region_0_2_c7'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_0_0'
+CSAGen Prep Share:0 Re-Write:0 Speculation: 0
+CDN_DP_region_0_0 level = 0 loads = 0 drivers = 0
+CDN_DP_region_0_0_c0 in novel_mod_operator: area: 3669591390 ,dp = 4 mux = 13  ctl_case = 0  decode = 4  other = 13  sg = slow         worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  335113  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ skipped
+CDN_DP_region_0_0_c1 in novel_mod_operator: area: 3494035155 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 13  sg = fast         worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  333961  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c2 in novel_mod_operator: area: 3481606395 ,dp = 4 mux = 12  ctl_case = 0  decode = 1  other = 15  sg = very_slow    worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  334207  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+
+CDN_DP_region_0_0_c3 in novel_mod_operator: area: 3494035155 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 13  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  333961  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c4 in novel_mod_operator: area: 3494035155 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 13  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  333961  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c5 in novel_mod_operator: area: 3494035155 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 13  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  333961  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c6 in novel_mod_operator: area: 3494035155 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 13  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  333961  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+ is current best
+CDN_DP_region_0_0_c7 in novel_mod_operator: area: 4315886910 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 14  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2750  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  344545  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+
+Best config: CDN_DP_region_0_0_c6 in novel_mod_operator: area: 3494035155 ,dp = 4 mux = 13  ctl_case = 0  decode = 1  other = 13  sg = very_fast    worst_clk_period: -1.0000 
+    wns: 2605  norm_wns:  -1.0000 
+    fail_endp: -1 
+    tns:  333961  tns_per_endp:  -1.0000   norm_tns_per_endp:  -1.0000 
+    tns_sense_max:  -1.0000  tns_sense_avg:  -1.0000   tns_sense_num: -1
+  Smallest config area : 3481606395.  Fastest config wns;  2605
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Summary table of configs (Best config is CDN_DP_region_0_0_c6)
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>                     0                  1                  2                  3                  4                  5                  6                  7            
+##>+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>           Area       3669591390         3494035155         3481606395         3494035155         3494035155         3494035155         3494035155         4315886910  
+##>            WNS          -260.50            -260.50            -260.50            -260.50            -260.50            -260.50            -260.50            -275.00  
+##>            TNS           335113             333961             334207             333961             333961             333961             333961             344545  
+##>    Num Rewrite                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Num Factor                0                  0                  0                  0                  0                  0                  0                  0  
+##>      Num Share                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num CmultCse                0                  0                  0                  0                  0                  0                  0                  0  
+##>   Num Downsize                0                  0                  0                  0                  0                  0                  0                  0  
+##>  Num Speculate                0                  0                  0                  0                  0                  0                  0                  0  
+##>     Runtime(s)                0                  0                  0                  0                  0                  0                  0                  0  
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>
+##>
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>Optimization Step DEBUG Table for config CDN_DP_region_0_0_c6
+##>
+##>                          Step                        Area   (  % Chg)         WNS (Change)          TNS (Change)                Power   (  % Chg)        Runtime (s)        Comment                   
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+##>createMaxCarrySave              START             3669591390 (       )    107373921.90 (        )          0 (        )                    0 (       )              
+##> datapath_rewrite_one_def       START             3669591390 (  +0.00)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>  fast_cse_elim                 START             3669591390 (  +0.00)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3622983540 (  -1.27)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>  fast_cse_elim                 START             3622983540 (  +0.00)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3622983540 (  +0.00)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>                                  END             3622983540 (  -1.27)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##> dpopt_share_one_def            START             3622983540 (  +0.00)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3622983540 (  +0.00)    107373921.90 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##> csa_opto                       START             3622983540 (  +0.00)    214748364.70 (+107374442.80)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.21)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>                                  END             3630751515 (  -1.06)    214748364.70 (+107374442.80)          0 (       0)                    0 (  +0.00)           0  
+##>canonicalize_by_names           START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>datapath_rewrite_post_csa_one_  START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>datapath_csa_factoring_one_gde  START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>dpopt_share_one_def             START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>datapath_rewrite_post_share     START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>dp_combine_const_mult_with_com  START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>dp_operator_level_decompositio  START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>selective_flatten_dp_config     START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>createMaxCarrySave              START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##> datapath_rewrite_one_def       START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>  fast_cse_elim                 START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>  fast_cse_elim                 START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##> dpopt_share_one_def            START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##> csa_opto                       START             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>                                  END             3630751515 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>context_based_simplify          START             3616769160 (  -0.39)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3494035155 (  -3.39)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>group_csa_final_adder_dp        START             3494035155 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3494035155 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>dpopt_flatten_critical_muxes_i  START             3494035155 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)              
+##>                                  END             3494035155 (  +0.00)    214748364.70 (   +0.00)          0 (       0)                    0 (  +0.00)           0  
+##>create_score                    START             3494035155 (  +0.00)     -260.50 (-214748625.20)     333961 (  333961)                    0 (  +0.00)              
+##>                                  END             3494035155 (  +0.00)     -260.50 (   +0.00)     333961 (       0)                    0 (  +0.00)           0  
+##>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Committed config: CDN_DP_region_0_0_c6
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 6 for module 'CDN_DP_region_0_0_c6'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info:  Ungrouped 0 dp-cluster instances.  0 cluster instances were left intact, to aid verification.
+Info    : Done optimizing datapath logic. [DPOPT-2]
+        : Done optimizing datapath logic in 'novel_mod_operator'.
+Number of big hc bmuxes after = 0
+Starting bit-level redundancy removal [v1.0] (stage: post_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed bit-level redundancy removal (accepts: 0, rejects: 0, runtime: 0.028s)
+Starting logic reduction [v1.0] (stage: post_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed logic reduction (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting mux data reorder optimization [v1.0] (stage: post_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed mux data reorder optimization (accepts: 0, rejects: 0, runtime: 0.000s)
+Starting timing based select reordering [v1.0] (stage: post_rtlopt, startdef: novel_mod_operator, recur: true)
+Completed timing based select reordering (accepts: 0, rejects: 0, runtime: 0.056s)
+
+Stage: post_rtlopt
+----------------------------------------------------------------
+| Transform                  | Accepts | Rejects | Runtime (s) | 
+----------------------------------------------------------------
+| hlo_redundancy_removal_bit |       0 |       0 |        0.03 | 
+| hlo_logic_reduction        |       0 |       0 |        0.00 | 
+| hlo_mux_reorder            |       0 |       0 |        0.00 | 
+| hlo_timing_reorder         |       0 |       0 |        0.06 | 
+----------------------------------------------------------------
+Running post blast mux optimization. Please follow up with Cadence support if runtime issues are seen with this optimization.
+Starting mux speculation [v1.0] (stage: post_muxopt, startdef: novel_mod_operator, recur: true)
+Starting speculation optimization
+Completed speculation optimization (accepts:0)
+Completed mux speculation (accepts: 0, rejects: 0, runtime: 0.043s)
+Starting timing based select reordering [v1.0] (stage: post_muxopt, startdef: novel_mod_operator, recur: true)
+Completed timing based select reordering (accepts: 0, rejects: 0, runtime: 0.039s)
+
+Stage: post_muxopt
+--------------------------------------------------------
+| Transform          | Accepts | Rejects | Runtime (s) | 
+--------------------------------------------------------
+| hlo_speculation    |       0 |       0 |        0.04 | 
+| hlo_timing_reorder |       0 |       0 |        0.04 | 
+--------------------------------------------------------
+==================================
+Stage : to_generic 
+==================================
+  =================
+   Message Summary
+  =================
+-------------------------------------------------------------------------------------------------------------------------------
+|   Id   |  Sev  |Count|                                             Message Text                                             |
+-------------------------------------------------------------------------------------------------------------------------------
+|CDFG-372|Info   |   10|Bitwidth mismatch in assignment.                                                                      |
+|        |       |     |Review and make sure the mismatch is intentional. Genus can possibly issue bitwidth mismatch warning  |
+|        |       |     | for explicit assignments present in RTL as-well-as for implicit assignments inferred by the tool. For|
+|        |       |     | example, in case of enum declaration without value, the tool will implicitly assign value to the enum|
+|        |       |     | variables. It also issues the warning for any bitwidth mismatch that appears in this implicit        |
+|        |       |     | assignment.                                                                                          |
+|CDFG-472|Warning|    1|Unreachable statements for case item.                                                                 |
+|CDFG-738|Info   |    4|Common subexpression eliminated.                                                                      |
+|CDFG-739|Info   |    4|Common subexpression kept.                                                                            |
+|CDFG-818|Warning|    1|Using default parameter value for module elaboration.                                                 |
+|CWD-19  |Info   |   39|An implementation was inferred.                                                                       |
+|DPOPT-1 |Info   |    1|Optimizing datapath logic.                                                                            |
+|DPOPT-2 |Info   |    1|Done optimizing datapath logic.                                                                       |
+|DPOPT-3 |Info   |    3|Implementing datapath configurations.                                                                 |
+|DPOPT-4 |Info   |    3|Done implementing datapath configurations.                                                            |
+|DPOPT-6 |Info   |    1|Pre-processed datapath logic.                                                                         |
+|DPOPT-10|Info   |    3|Optimized a mux chain.                                                                                |
+|ELAB-1  |Info   |    1|Elaborating Design.                                                                                   |
+|ELAB-3  |Info   |    1|Done Elaborating Design.                                                                              |
+|GB-6    |Info   |    1|A datapath component has been ungrouped.                                                              |
+|GLO-34  |Info   |    1|Deleting instances not driving any primary outputs.                                                   |
+|        |       |     |Optimizations such as constant propagation or redundancy removal could change the connections so a    |
+|        |       |     | hierarchical instance does not drive any primary outputs anymore. To see the list of deleted         |
+|        |       |     | hierarchical instances, set the 'information_level' attribute to 2 or above. If the message is       |
+|        |       |     | truncated set the message attribute 'truncate' to false to see the complete list. To prevent this    |
+|        |       |     | optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve'      |
+|        |       |     | instance attribute to 'true'.                                                                        |
+|LBR-9   |Warning|   50|Library cell has no output pins defined.                                                              |
+|        |       |     |Add the missing output pin(s)                                                                         |
+|        |       |     | , then reload the library. Else the library cell will be marked as timing model i.e. unusable.       |
+|        |       |     | Timing_model means that the cell does not have any defined function. If there is no output pin, Genus|
+|        |       |     | will mark library cell as unusable i.e. the attribute 'usable' will be marked to 'false' on the      |
+|        |       |     | libcell. Therefore, the cell is not used for mapping and it will not be picked up from the library   |
+|        |       |     | for synthesis. If you query the attribute 'unusable_reason' on the libcell; result will be: 'Library |
+|        |       |     | cell has no output pins.'Note: The message LBR-9 is only for the logical pins and not for the        |
+|        |       |     | power_ground pins. Genus will depend upon the output function defined in the pin group (output pin)  |
+|        |       |     | of the cell, to use it for mapping. The pg_pin will not have any function defined.                   |
+|LBR-40  |Info   |    7|An unsupported construct was detected in this library.                                                |
+|        |       |     |Check to see if this construct is really needed for synthesis. Many liberty constructs are not        |
+|        |       |     | actually required.                                                                                   |
+|LBR-77  |Info   |  108|Automatically disabling a scan-only combinational arc.                                                |
+|        |       |     |The library cell is sequential and it has a combinational arc involving at least one pin that is only |
+|        |       |     | used in scan mode.  You can enable such arcs by setting root-level attribute                         |
+|        |       |     | 'ignore_scan_combinational_arcs' to false, but that will deem the cell unusable.                     |
+|LBR-155 |Info   |  192|Mismatch in unateness between 'timing_sense' attribute and the function.                              |
+|        |       |     |The 'timing_sense' attribute will be respected.                                                       |
+|LBR-161 |Info   |    1|Setting the maximum print count of this message to 10 if information_level is less than 9.            |
+|LBR-162 |Info   |  133|Both 'pos_unate' and 'neg_unate' timing_sense arcs have been processed.                               |
+|        |       |     |Setting the 'timing_sense' to non_unate.                                                              |
+|LBR-170 |Info   |   24|Ignoring specified timing sense.                                                                      |
+|        |       |     |Timing sense should never be set with 'rising_edge' or 'falling_edge' timing type.                    |
+|LBR-412 |Info   |    1|Created nominal operating condition.                                                                  |
+|        |       |     |The nominal operating condition is represented, either by the nominal PVT values specified in the     |
+|        |       |     | library source (via nom_process,nom_voltage and nom_temperature respectively)                        |
+|        |       |     | , or by the default PVT values (1.0,1.0,1.0).                                                        |
+|LBR-512 |Warning|   30|Found empty library construct.                                                                        |
+|        |       |     |Check and update the library to have the attribute defined before it is used by any of the groups     |
+|        |       |     | further down in the library. When a group is defined, all attributes which affect that particular    |
+|        |       |     | group should be known at that point else Genus will ignore their definition.                         |
+|PHYS-752|Info   |    1|Partition Based Synthesis execution skipped.                                                          |
+|SYNTH-1 |Info   |    1|Synthesizing.                                                                                         |
+|TIM-1000|Info   |    1|Multimode clock gating check is disabled.                                                             |
+-------------------------------------------------------------------------------------------------------------------------------
+Mapper: Libraries have:
+	domain _default_: 320 combo usable cells and 127 sequential usable cells
+Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 56 CPUs usable)
+==================================
+Stage : first_condense 
+==================================
+  =================
+   Message Summary
+  =================
+-------------------------------------------------------------------------------------------------------------------------------
+|  Id  |Sev |Count|                                               Message Text                                                |
+-------------------------------------------------------------------------------------------------------------------------------
+|GB-6  |Info|    4|A datapath component has been ungrouped.                                                                   |
+|GLO-51|Info|    1|Hierarchical instance automatically ungrouped.                                                             |
+|      |    |     |Hierarchical instances can be automatically ungrouped to allow for better area or timing optimization. To  |
+|      |    |     | prevent this ungroup, set the root-level attribute 'auto_ungroup' to 'none'. You can also prevent         |
+|      |    |     | individual ungroup with setting the attribute 'ungroup_ok' of instances or modules to 'false'.            |
+-------------------------------------------------------------------------------------------------------------------------------
+ 
+Global mapping target info
+==========================
+Cost Group 'clk' target slack:  -200 ps
+Target path end-point (Pin: dividend_reg[17]/d)
+
+/home/rhome/fiumad/45spclo/LWE-Encryption-Accelerator/verilog/modulus/genus/.st_launch_rs-02.ecse.rpi.edu_1748415
+
+State Retention Synthesis Status
+================================
+
+Category                        Flops   Percentage
+--------------------------------------------------
+Total instances                   105        100.0
+Excluded from State Retention     105        100.0
+    - Will not convert            105        100.0
+      - Preserved                   0          0.0
+      - Power intent excluded     105        100.0
+    - Could not convert             0          0.0
+      - Scan type                   0          0.0
+      - No suitable cell            0          0.0
+State Retention instances           0          0.0
+--------------------------------------------------
+
+PBS_Generic_Opt-Post - Elapsed_Time 10, CPU_Time 9.625601000000003
+stamp 'PBS_Generic_Opt-Post' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) | 100.0(100.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_Generic-Postgen HBO Optimizations - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Generic-Postgen HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) | 100.0(100.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Starting post syn_generic ultra-effort Boolean optimization
+Redundancy removal succeeded.
+Done post syn_generic ultra-effort Boolean optimization (0.00 cpu seconds) (0.00 elapsed cpu seconds)
+Info    : Done synthesizing. [SYNTH-2]
+        : Done synthesizing 'novel_mod_operator' to generic gates.
+##>=================== Cadence Confidential (Generic-Logical) ===================
+##>=================== Cadence Confidential (Generic-Logical) ===================
+      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   syn_gen
+@file(modulus.g) 8: syn_map
+#----------------------------------------------------------------------------------------
+# Root attributes for category: opt
+#----------------------------------------------------------------------------------------
+# Feature                           | Attribute                    | Value            
+#----------------------------------------------------------------------------------------
+# Avoid tied inputs                 | avoid_tied_inputs            | false (default)  
+# Allow floating outputs            | opt_allow_floating_outputs   | false (default)  
+# Power optimization effort         | design_power_effort          | none (default)   
+# Do not use qbar sequential pins   | dont_use_qbar_seq_pins       | false (default)  
+#----------------------------------------------------------------------------------------
+
+##Generic Timing Info: typical gate delay   16.2 ps   std_slew:    3.0 ps   std_load:  1.9 fF  for library domain _default_
+Mapping ChipWare ICG instances in novel_mod_operator
+Found 0 unmapped ChipWare ICG instances
+Mapped 0 of 0 ChipWare ICG instances
+Info    : Mapping. [SYNTH-4]
+        : Mapping 'novel_mod_operator' using 'high' effort.
+Mapper: Libraries have:
+	domain _default_: 320 combo usable cells and 127 sequential usable cells
+PBS_TechMap-Start - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_TechMap-Start' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) | 100.0( 91.7) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  8.3) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_TechMap-Premap HBO Optimizations - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_TechMap-Premap HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) | 100.0( 91.7) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  8.3) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Info    : Partition Based Synthesis execution skipped. [PHYS-752]
+        : Design size is less than the partition size '100000' for distributed mapping optimization to kick in.
+Mapper: Libraries have:
+	domain _default_: 320 combo usable cells and 127 sequential usable cells
+Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 56 CPUs usable)
+ 
+Global mapping target info
+==========================
+Cost Group 'clk' target slack:  -238 ps
+Target path end-point (Pin: dividend_reg[25]/d)
+
+Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 56 CPUs usable)
+Multi-threaded Technology Mapping (8 threads per ST process, 8 of 56 CPUs usable)
+ 
+Global mapping status
+=====================
+                                   Group   
+                                  Tot Wrst 
+                           Total  Weighted 
+Operation                   Area   Slacks  
+ global_map                 2419     -254 
+            Worst cost_group: clk, WNS: -254.9
+            Path: divisor_reg[1]/CLK --> dividend_reg[28]/D
+
+    Cost Group            Target    Slack    Diff.  Constr.
+-----------------------------------------------------------
+           clk              -238     -255      -7%        2 
+
+ 
+Global incremental target info
+==============================
+Cost Group 'clk' target slack:  -255 ps
+Target path end-point (Pin: dividend_reg[25]/D (DFFRPQ_X2_9T_SG40RVT/D))
+
+==================================
+Stage : global_incr_map 
+==================================
+  =================
+   Message Summary
+  =================
+-------------------------------------------------------------------------------------------------------------------------------
+|   Id   |Sev |Count|                                              Message Text                                               |
+-------------------------------------------------------------------------------------------------------------------------------
+|GLO-51  |Info|    1|Hierarchical instance automatically ungrouped.                                                           |
+|        |    |     |Hierarchical instances can be automatically ungrouped to allow for better area or timing optimization. To|
+|        |    |     | prevent this ungroup, set the root-level attribute 'auto_ungroup' to 'none'. You can also prevent       |
+|        |    |     | individual ungroup with setting the attribute 'ungroup_ok' of instances or modules to 'false'.          |
+|PHYS-752|Info|    1|Partition Based Synthesis execution skipped.                                                             |
+|SYNTH-2 |Info|    1|Done synthesizing.                                                                                       |
+|SYNTH-4 |Info|    1|Mapping.                                                                                                 |
+-------------------------------------------------------------------------------------------------------------------------------
+ 
+Global incremental optimization status
+======================================
+                                   Group   
+                                  Tot Wrst 
+                           Total  Weighted 
+Operation                   Area   Slacks  
+ global_incr                2253     -252 
+            Worst cost_group: clk, WNS: -252.2
+            Path: divisor_reg[3]/CLK --> dividend_reg[28]/D
+
+    Cost Group            Target    Slack    Diff.  Constr.
+-----------------------------------------------------------
+           clk              -255     -252      +1%        2 
+
+/home/rhome/fiumad/45spclo/LWE-Encryption-Accelerator/verilog/modulus/genus/.st_launch_rs-02.ecse.rpi.edu_1748415
+
+State Retention Synthesis Status
+================================
+
+Category                        Flops   Percentage
+--------------------------------------------------
+Total instances                   105        100.0
+Excluded from State Retention     105        100.0
+    - Will not convert            105        100.0
+      - Preserved                   0          0.0
+      - Power intent excluded     105        100.0
+    - Could not convert             0          0.0
+      - Scan type                   0          0.0
+      - No suitable cell            0          0.0
+State Retention instances           0          0.0
+--------------------------------------------------
+
+INFO: skipping constant propagation
+PBS_Techmap-Global Mapping - Elapsed_Time 12, CPU_Time 12.133344999999998
+stamp 'PBS_Techmap-Global Mapping' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) |  48.9( 45.8) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  4.2) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:56(00:00:46) |  00:00:12(00:00:12) |  51.1( 50.0) |   17:02:46 (Apr13) |  928.8 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+Info    : Wrote formal verification information. [CFM-5]
+        : Wrote 'fv/novel_mod_operator/fv_map.fv.json' for netlist 'fv/novel_mod_operator/fv_map.v.gz'.
+Info    : Wrote dofile. [CFM-1]
+        : Dofile is 'fv/novel_mod_operator/rtl_to_fv_map.do'.
+        : RTL names flow is enabled.
+PBS_TechMap-Datapath Postmap Operations - Elapsed_Time 3, CPU_Time 3.0
+stamp 'PBS_TechMap-Datapath Postmap Operations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) |  43.4( 40.7) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  3.7) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:56(00:00:46) |  00:00:12(00:00:12) |  45.3( 44.4) |   17:02:46 (Apr13) |  928.8 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:03(00:00:03) |  11.2( 11.1) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_TechMap-Postmap HBO Optimizations - Elapsed_Time 0, CPU_Time -0.016635000000000844
+stamp 'PBS_TechMap-Postmap HBO Optimizations' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) |  43.5( 40.7) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  3.7) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:56(00:00:46) |  00:00:12(00:00:12) |  45.4( 44.4) |   17:02:46 (Apr13) |  928.8 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:03(00:00:03) |  11.2( 11.1) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |  -0.1(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+ Doing ConstProp on design:novel_mod_operator ... 
+
+Time taken by ConstProp Step: 00:00:00
+PBS_TechMap-Postmap Clock Gating - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_TechMap-Postmap Clock Gating' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) |  43.5( 40.7) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  3.7) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:56(00:00:46) |  00:00:12(00:00:12) |  45.4( 44.4) |   17:02:46 (Apr13) |  928.8 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:03(00:00:03) |  11.2( 11.1) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |  -0.1(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap Clock Gating
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+-------------------------------------------------------------------------------
+ hi_fo_buf                  2253     -252    -27410         0        0
+            Worst cost_group: clk, WNS: -252.2
+            Path: divisor_reg[3]/CLK --> dividend_reg[28]/D
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       hi_fo_buf         0  (        0 /        0 )  0.00
+
+ 
+Incremental optimization status
+===============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+ init_delay                 2253     -252    -27410         0        0
+            Worst cost_group: clk, WNS: -252.2
+            Path: divisor_reg[3]/CLK --> dividend_reg[28]/D
+ incr_delay                 2437     -236    -27390         0        0
+            Worst cost_group: clk, WNS: -236.0
+            Path: dividend_reg[6]/CLK --> dividend_reg[25]/D
+ incr_delay                 2447     -234    -27339         0        0
+            Worst cost_group: clk, WNS: -234.3
+            Path: divisor_reg[6]/CLK --> dividend_reg[28]/D
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+       crit_upsz       131  (       56 /       58 )  0.23
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+          plc_st        51  (        0 /        0 )  0.00
+    plc_st_fence        51  (        0 /        0 )  0.00
+        plc_star        51  (        0 /        0 )  0.00
+      plc_laf_st        51  (        0 /        0 )  0.00
+ plc_laf_st_fence        51  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+            fopt       125  (       29 /       29 )  0.25
+   plc_laf_lo_st        52  (        0 /        0 )  0.00
+       plc_lo_st        52  (        0 /        0 )  0.00
+        mb_split        52  (        0 /        0 )  0.00
+
+ 
+Local TNS optimization status
+=============================
+                                   Group   
+                                  Tot Wrst     Total - - DRC Totals - -
+                           Total  Weighted      Neg      Max       Max 
+Operation                   Area   Slacks      Slack    Trans      Cap 
+ init_tns                   2447     -234    -27339         0        0
+            Worst cost_group: clk, WNS: -234.3
+            Path: divisor_reg[6]/CLK --> dividend_reg[28]/D
+ incr_tns                   2427     -232    -26968         0        0
+            Worst cost_group: clk, WNS: -232.7
+            Path: divisor_reg[10]/CLK --> dividend_reg[28]/D
+ incr_tns                   2427     -232    -26968         0        0
+            Worst cost_group: clk, WNS: -232.7
+            Path: divisor_reg[10]/CLK --> dividend_reg[28]/D
+
+           Trick     Calls     Accepts   Attempts    Time(secs) 
+-----------------------------------------------------------
+    plc_bal_star         0  (        0 /        0 )  0.00
+     drc_buftimb         0  (        0 /        0 )  0.00
+     drc_buftims         0  (        0 /        0 )  0.00
+       crit_upsz       572  (       42 /      108 )  1.08
+   plc_laf_lo_st       530  (        0 /        0 )  0.00
+       plc_lo_st       530  (        0 /        0 )  0.00
+            fopt       530  (        0 /        0 )  0.02
+       crit_dnsz       716  (      143 /      237 )  1.01
+             dup       387  (        0 /        0 )  0.01
+        setup_dn       387  (        2 /       17 )  0.23
+        mb_split       385  (        0 /        0 )  0.00
+
+PBS_TechMap-Postmap Cleanup - Elapsed_Time 3, CPU_Time 2.8448920000000086
+stamp 'PBS_TechMap-Postmap Cleanup' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) |  39.3( 35.5) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  3.2) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:56(00:00:46) |  00:00:12(00:00:12) |  41.0( 38.7) |   17:02:46 (Apr13) |  928.8 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:03(00:00:03) |  10.1(  9.7) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |  -0.1(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap Clock Gating
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:01:02(00:00:53) |  00:00:02(00:00:04) |   9.6( 12.9) |   17:02:53 (Apr13) |  918.0 MB | PBS_TechMap-Postmap Cleanup
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+PBS_Techmap-Post_MBCI - Elapsed_Time 0, CPU_Time 0.0
+stamp 'PBS_Techmap-Post_MBCI' being created for table 'pbs_debug'
+
+  Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:33(00:00:22) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:22 (Apr13) |   1.16 GB | PBS_Generic-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:11(00:00:11) |  39.3( 35.5) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic_Opt-Post
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:33) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:33 (Apr13) |  889.7 MB | PBS_Generic-Postgen HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:01) |   0.0(  3.2) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Start
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:44(00:00:34) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:34 (Apr13) |  917.9 MB | PBS_TechMap-Premap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:56(00:00:46) |  00:00:12(00:00:12) |  41.0( 38.7) |   17:02:46 (Apr13) |  928.8 MB | PBS_Techmap-Global Mapping
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:03(00:00:03) |  10.1(  9.7) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Datapath Postmap Operations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |  -0.1(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap HBO Optimizations
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:00:59(00:00:49) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:49 (Apr13) |  928.8 MB | PBS_TechMap-Postmap Clock Gating
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:01:02(00:00:53) |  00:00:02(00:00:04) |   9.6( 12.9) |   17:02:53 (Apr13) |  918.0 MB | PBS_TechMap-Postmap Cleanup
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+ 00:01:02(00:00:53) |  00:00:00(00:00:00) |   0.0(  0.0) |   17:02:53 (Apr13) |  918.0 MB | PBS_Techmap-Post_MBCI
+--------------------+---------------------+--------------+--------------------+-----------+----------------------
+Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
+Info: (*N*) indicates data that was populated from previously saved time_info database
+Info: CPU time includes time of parent + longest thread
+##>=================== Cadence Confidential (Mapping-Logical) ===================
+##>Main Thread Summary:
+##>----------------------------------------------------------------------------------------
+##>STEP                           Elapsed       WNS       TNS     Insts      Area    Memory
+##>----------------------------------------------------------------------------------------
+##>M:Initial                            0         -         -      1308      4878       917
+##>M:Early Clock Gating                 0         -         -         -         -         -
+##>M:Pre Cleanup                        0         -         -      1308      4878       917
+##>M:Setup                              0         -         -         -         -         -
+##>M:Launch ST                          0         -         -         -         -         -
+##>M:Design Partition                   0         -         -         -         -         -
+##>M:Create Partition Netlists          0         -         -         -         -         -
+##>M:Init Power                         0         -         -         -         -         -
+##>M:Budgeting                          0         -         -         -         -         -
+##>M:Derenv-DB                          0         -         -         -         -         -
+##>M:Debug Outputs                      0         -         -         -         -         -
+##>M:ST loading                         0         -         -         -         -         -
+##>M:Distributed                        0         -         -         -         -         -
+##>M:Timer                              0         -         -         -         -         -
+##>M:Assembly                           0         -         -         -         -         -
+##>M:DFT                                0         -         -         -         -         -
+##>M:DP Operations                      3         -         -       931      2252       928
+##>M:Const Prop                         0      -252     27410       931      2252       928
+##>M:Cleanup                            3      -232     26968      1048      2426       918
+##>M:MBCI                               0         -         -      1048      2426       918
+##>M:PostGen Opt                        0         -         -         -         -         -
+##>M:Const Gate Removal                 0         -         -         -         -         -
+##>M:Early Clock Gating Cleanup         0         -         -         -         -         -
+##>M:Misc                              13
+##>----------------------------------------------------------------------------------------
+##>Total Elapsed                       19
+##>========================================================================================
+Info    : Done mapping. [SYNTH-5]
+        : Done mapping 'novel_mod_operator'.
+      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   syn_map
+@file(modulus.g) 9: report_timing >  ./mod_Timing.rpt
+@file(modulus.g) 10: report_area   >> ./mod_Area.rpt
+@file(modulus.g) 11: report_power >> ./mod_Power.rpt
+Info    : Joules engine is used. [RPT-16]
+        : Joules engine is being used for the command report_power.
+Info   : ACTP-0001 [ACTPInfo] Activity propagation started for stim#0 netlist
+       : novel_mod_operator
+Info   : ACTP-0009 [ACTPInfo] Activity Propagation Progress Report :   0%   1%   2%   3%   4%   5%   6%   7%   8%   9%  10%  11%  12%  13%  14%  15%  16%  17%  18%  19%  20%  21%  22%  23%  24%  25%  26%  27%  28%  29%  30%  31%  32%  33%  34%  35%  36%  37%  38%  39%  40%  41%  42%  43%  44%  45%  46%  47%  48%  49%  50%  51%  52%  53%  54%  55%  56%  57%  58%  59%  60%  61%  62%  63%  64%  65%  66%  67%  68%  69%  70%  71%  72%  73%  74%  75%  76%  77%  78%  79%  80%  81%  82%  83%  84%  85%  86%  87%  88%  89%  90%  91%  92%  93%  94%  95%  96%  97%  98%  99% 100%
+Info   : ACTP-0001 Activity propagation ended for stim#0
+Info   : PWRA-0001 [PwrInfo] compute_power effective options 
+       : -mode : vectorless
+       : -skip_propagation : 1
+       : -frequency_scaling_factor : 1.0
+       : -use_clock_freq : stim
+       : -stim :/stim#0
+       : -fromGenus : 1
+Info   : ACTP-0001 Timing initialization started
+Info   : ACTP-0001 Timing initialization ended
+Info   : PWRA-0002 [PwrInfo] Skipping activity propagation due to -skip_ap
+       : option....
+Warning: PWRA-0302 [PwrWarn] Frequency scaling is not applicable for vectorless
+       : flow. Ignoring frequency scaling.
+Warning: PWRA-0304 [PwrWarn] -stim option is not applicable with vectorless mode
+       : of power analysis, ignored this option.
+Info   : PWRA-0002 Started 'vectorless' power computation.
+Info   : PWRA-0009 [PwrInfo] Power Computation Progress Report :   0%   1%   2%   3%   4%   5%   6%   7%   8%   9%  10%  11%  12%  13%  14%  15%  16%  17%  18%  19%  20%  21%  22%  23%  24%  25%  26%  27%  28%  29%  30%  31%  32%  33%  34%  35%  36%  37%  38%  39%  40%  41%  42%  43%  44%  45%  46%  47%  48%  49%  50%  51%  52%  53%  54%  55%  56%  57%  58%  59%  60%  61%  62%  63%  64%  65%  66%  67%  68%  69%  70%  71%  72%  73%  74%  75%  76%  77%  78%  79%  80%  81%  82%  83%  84%  85%  86%  87%  88%  89%  90%  91%  92%  93%  94%  95%  96%  97%  98%  99% 100%
+Info   : PWRA-0002 Finished power computation.
+Info   : PWRA-0007 [PwrInfo] Completed successfully.
+       : Info=6, Warn=2, Error=0, Fatal=0
+Output file: ./mod_Power.rpt
+#@ End verbose source ./modulus.g
+@genus:root: 2> cd ../
+@genus:root: 3> exit
+
+Lic Summary:
+[17:10:51.162410] Cdslmd servers: licsrvr34
+[17:10:51.686715] Feature usage summary:
+[17:10:51.686720] Genus_Synthesis
+
+Normal exit.
