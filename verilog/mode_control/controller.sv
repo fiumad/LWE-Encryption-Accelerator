@@ -1,4 +1,4 @@
-module moduleName (
+module mode_controller(
   input logic clk, rst,
   input logic [1:0] mode, 
   output logic keygen_on,
@@ -11,6 +11,7 @@ module moduleName (
 // mode 0 = keygen
 // mode 1 = encryption 
 // mode 2 = decryption
+// mode 3 = storing public key (for encryption)
 
 always @(posedge clk) begin
   if (rst) begin
@@ -40,6 +41,13 @@ always @(posedge clk) begin
         keygen_on <= 0;
         encryption_on <= 0;
         decryption_on <= 1;
+        rng_on <= 0;
+        mod_on <= 0;
+      end
+      2'b10: begin
+        keygen_on <= 0;
+        encryption_on <= 0;
+        decryption_on <= 0;
         rng_on <= 0;
         mod_on <= 0;
       end
