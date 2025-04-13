@@ -16,7 +16,7 @@ module mla_accumulator #(
     output logic [ACC_WIDTH-1:0]     acc_col2,
     output logic [ACC_WIDTH-1:0]     acc_col3,
     output logic [ACC_WIDTH-1:0]     acc_col4,
-    output logic [ACC_WIDTH-1:0]     acc_sum
+    output logic [ACC_WIDTH-1:0]     acc_sum,
 );
 
     //-------------------------------------------------------------------------
